@@ -1,0 +1,57 @@
+/* NÃO ALTERAR ESSAS PROPRIEDADES DO BODY */
+body {
+    font-family: 'Raleway', sans-serif;
+    /* Altura em 100% do tamanho da janela */
+    height: 100vh;
+    /* Habilita o posicionamento Flexbox */
+    /* Transforma todos em filhos em flex itens */
+    display: flex;
+    /* Alinha os elementos na horizontal */
+    justify-content: center;
+    /* Alinha os elementos na vertical */
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(215,92,201,1) 35%, rgba(0,212,255,1) 100%);
+    text-align: center;
+}
+
+form{
+    background-color:white;
+    height: 40%;
+    width: 20%;
+    padding-top: 5%;
+    border-radius:5%;
+}
+input[type=text]{
+    width: 250px;
+    height: 30px;
+    border: 1px solid;
+    color:#ccc;
+}
+
+input[type=password]{
+    width: 250px;
+    height: 30px;
+    border: 1px solid;
+    color: #ccc;
+}
+
+#botao{
+  background: linear-gradient(90deg,  rgba(215,92,201,1) 35%, rgba(0,212,255,1) 100%);
+  height: 30px;
+  width: 300px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 30px;
+  transform: scale(1.05);
+  border-color: white;
+  color:white;
+    
+}
+
+#links img {
+justify-content: center;
+width: 30px;
+height: 30px;
+padding: 5px;
+}

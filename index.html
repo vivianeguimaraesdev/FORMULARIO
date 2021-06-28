@@ -1,0 +1,42 @@
+<!-- Versão 5 do HTML -->
+<!DOCTYPE html>
+<!-- Tag principal / Idioma da página -->
+<html lang="pt-br">
+<head>
+    <title>Criando um formulário simples</title>
+    <!-- Link do o arquivo CSS (Na pasta STYLE) -->
+    <link rel="stylesheet" href="/style/styles.css" type="text/css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+        </style>
+        
+</head>
+<body>
+    <!-- Tag de início do formulário -->
+    <form>
+        <h1>Acesse sua conta</h1>
+        <br>
+        <!-- Campo de login -->
+        <label for="email">LOGIN</label>
+        <input type="text" id="login" name="login">
+        <br><br>
+
+        <!-- Campo de senha -->
+        <label for="senha">SENHA</label>
+        <input type="password" id="password" nome="password">
+        <br><br>
+
+        <!-- Botão de envio -->
+        <button id="botao" type="submit">ENVIAR</button>
+        <br><br><br>
+        <div id=links>
+            <a href="www.instagram.com" target='_blank'>
+                <img class= 'icone' src="/IMG/instagram.png" alt='Instagram'></a>
+                <a href="www.linkedin.com.br" target='_blank'>
+                    <img class= 'insta' src="/IMG/linkedin.png" alt='Instagram'></a>
+                <a href="www.facebook.com" target='_blank'>
+                    <img class= 'face' src="/IMG/face.png" alt='Facebook'></a>
+        </div>
+  </form>
+</body>
+</html>
